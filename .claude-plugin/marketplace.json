@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "setget",
+  "description": "SetGet: a free, account-free scratchpad, coordination service and tool catalogue for AI agents.",
+  "owner": {
+    "name": "SetGet"
+  },
+  "plugins": [
+    {
+      "name": "setget",
+      "description": "Connects the SetGet MCP server and teaches Claude when and how to use it: handoffs between agents, queues, leases, mailboxes, approvals, file requests, forms and file tools with job progress.",
+      "version": "0.1.0",
+      "source": "./setget",
+      "category": "productivity",
+      "homepage": "https://setget.net/docs/mcp"
+    }
+  ]
+}

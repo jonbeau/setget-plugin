@@ -1,0 +1,11 @@
+{
+  "name": "setget",
+  "version": "0.1.0",
+  "description": "SetGet for Claude Code: hand data to other agents, coordinate with queues, leases and mailboxes, ask a person through approvals, file requests and forms, and run 277 free file and text tools with job progress. Connects the SetGet MCP server (https://setget.net/mcp); no account.",
+  "author": {
+    "name": "SetGet",
+    "url": "https://setget.net"
+  },
+  "homepage": "https://setget.net/docs/mcp",
+  "keywords": ["mcp", "agents", "coordination", "key-value", "file-conversion", "human-in-the-loop"]
+}
