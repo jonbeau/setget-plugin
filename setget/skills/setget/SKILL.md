@@ -49,7 +49,7 @@ Each of these returns a link to give the person; then wait with the tool's `read
 1. `find_tools` with what you want to do ("video to gif", "pdf to markdown", "csv to json").
 2. `describe_tool` to see the inputs (a file input has `format: setget-file`).
 3. Text tools: `run_tool` answers at once; the output is in `body.result`.
-4. File tools: get the file into SetGet first. With a shell, `curl -T FILE https://setget.net/drop/` prints a `ref` (or `npx @jonbeau/setget drop FILE`). Without one, `drop` `create` returns an upload URL; small files can be sent inline as a `data:` URI (the whole call must stay under 1 MiB). Pass the ref to `run_tool`.
+4. File tools: get the file into SetGet first. With a shell, `curl -T FILE https://setget.net/drop/` prints a `ref` (or `npx setget-net drop FILE`). Without one, `drop` `create` returns an upload URL; small files can be sent inline as a `data:` URI (the whole call must stay under 1 MiB). Pass the ref to `run_tool`.
 5. If `run_tool` returns status 202, the job is still running: call `job` with `action: "wait"` and the job id, and repeat until the status is `done`, `failed` or `cancelled`. Report the stage and percent to the user while it runs. A done job's `files` have download `url`s; a job id holding one file can be passed straight to the next tool. For several steps, use `pipeline` instead.
 6. On an error, `body.error` has `message`, `fix` and often `problems` with the field at fault and a "did you mean". Fix the input and run again; do not guess.
 
