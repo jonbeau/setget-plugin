@@ -9,7 +9,7 @@
     {
       "name": "setget",
       "description": "Connects the SetGet MCP server and teaches Claude when and how to use it safely: handoffs between agents, queues, leases, mailboxes, approvals, file requests, forms and file tools with job progress.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "source": "./setget",
       "category": "productivity",
       "homepage": "https://setget.net/docs/mcp"

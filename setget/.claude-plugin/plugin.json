@@ -1,12 +1,16 @@
 {
   "name": "setget",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Connects Claude Code to the SetGet MCP server (https://setget.net/mcp, no account) and adds a skill for using it safely: hand values and messages to other agents, coordinate with queues, leases and mailboxes, ask a person through approval, form and file-request links, and run SetGet's deterministic file and text tools with job progress.",
   "author": {
     "name": "SetGet",
     "url": "https://setget.net"
   },
   "homepage": "https://setget.net/docs/mcp",
+  "documentationUrl": "https://setget.net/docs/mcp",
+  "supportUrl": "https://github.com/jonbeau/setget-plugin/issues",
+  "privacyPolicyUrl": "https://setget.net/legal#privacy",
+  "termsOfServiceUrl": "https://setget.net/legal#terms",
   "repository": "https://github.com/jonbeau/setget-plugin",
   "license": "MIT",
   "keywords": [
