@@ -7,5 +7,13 @@
     "url": "https://setget.net"
   },
   "homepage": "https://setget.net/docs/mcp",
-  "keywords": ["mcp", "agents", "coordination", "key-value", "file-conversion", "human-in-the-loop"]
+  "keywords": [
+    "mcp",
+    "agents",
+    "coordination",
+    "key-value",
+    "file-conversion",
+    "human-in-the-loop"
+  ],
+  "privacyPolicyUrl": "https://setget.net/legal#privacy"
 }
